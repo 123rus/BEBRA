@@ -13,14 +13,158 @@ body{
     flex-wrap: wrap;
 }
 
-.Home h1, .AboutMe h1{
+.Home h1, .AboutMe h1 {
     padding-top: 100px;
+    text-align: center;
+}
+
+.AboutMe h2 {
+    padding-top: 20px;
     text-align: center;
 }
 
 .card{
     margin-left: 64px;
-    margin-bottom: 20px;
-} 
+    margin-bottom: 40px;
 
+} 
+.cardo{
+    background-color: rgba(38, 57, 161, 0.87);
+    margin-bottom: 50px;
+    margin-right: 80px
+}
+
+.floating-buttons{
+    margin-top: 40px;
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+.floating-buttons:hover{
+    background: #ffb23d;
+    box-shadow: 0 15px 20px #ffb23d;
+    color: white;
+    transform: translateY(-7px);
+}
+
+.floating-buttont{
+    margin-top: 40px;
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.floating-buttont:hover{
+    background: #fa4a4a;
+    box-shadow: 0 15px 20px #fa4a4a;
+    color: white;
+    transform: translateY(-7px);
+}
+
+.cards{
+    background-color: rgba(141, 96, 51, 0.897);
+    margin-bottom: 50px;
+    margin-right: 80px;
+}
+
+.cardt{
+    background-color: #f16b6b;
+    margin-bottom: 50px;
+    margin-right: 80px;
+}
+
+.cardf{
+    background-color: gray;
+    margin-bottom: 50px;
+    margin-right: 80px;
+}
+
+.cardff{
+    background-color: beige;
+    margin-bottom: 50px;
+    margin-right: 80px;
+}
+
+body {
+    background-color: rgb(203, 216, 133);
+  }
+  .floating-button {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+  }
+  .floating-button:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+    transform: translateY(-7px);
+  }
+
+.btn{
+    border-radius: 30px;
+}
+
+body {
+    background: #d6eaf8;
+  }
+  .gradient-button {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+  }
+  .gradient-button:hover {
+    background-position: right center;
+  }
 
