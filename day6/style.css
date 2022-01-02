@@ -421,3 +421,19 @@ ul, ol {
     visibility: hidden;
     transition: .22s ease;
 }
+
+
+.coddd h1{
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+
+.coddd h3{
+  padding-bottom: 30px;
+}
+.scodd h3{
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
